@@ -1,0 +1,274 @@
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: HankenGrotesk;
+}
+
+img {
+    width: 16px;
+    margin: 0 5px 0 10px;
+}
+
+text {
+    font-size: 13px;
+}
+
+ul.nav {
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 39%;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    position: relative;
+    top: 60%;
+}
+
+section {
+    color: hsl(224, 30%, 27%);
+    font-size: 13px;
+    float: right;
+    padding: 4px 10px 0 0;
+}
+
+span {
+    color: lightgray;
+}
+
+ul>li {
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: -10px;   
+}
+
+.btn {
+    font-size: 15px;
+    position: relative;
+    top: 25%;
+    left: 55%;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+}
+
+.btn:hover {
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+
+.circlePos {
+    position: relative;
+    top: 20%;
+    left: 22.75%;
+}
+
+.container {
+    margin-top: 12%;
+    margin-left: 31%;
+    float: left;
+}
+
+.justify-content-center {
+    margin-top: 10%;
+    margin-left: 32%;
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.05);
+}
+
+.rectangle {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 350px;
+    z-index: 1;
+    border-radius: 22px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.recW {
+    position: relative;
+    float: left;
+    background-image: none;
+    background-color: white;
+    box-shadow: 5px 10px 40px -20px ;
+    margin-left: -250px;
+    z-index: 0;
+    width: 500px;
+    height: 350px;
+    border-radius: 22px;
+}
+
+.result {
+    position: relative;
+    top: 18%;
+    left: 55%;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    height: 38px;
+    padding-top: 5px;
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color:  hsl(166, 100%, 37%, 0.05);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+#belowGreat {
+    color: lightgray;
+    font-size: 10px;
+    text-align: center;
+    width: 140px;
+    left: 22%;
+}
+
+#circle{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: hsl(250, 90%, 61%);
+}
+
+#great {
+    font-size: 25px;
+    font-weight: bold;
+    left: 37%;
+    margin-bottom: 5px;
+}
+
+#sevix {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#summary {
+    color: hsl(224, 30%, 27%);
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    font-weight: 900;
+}
+
+#yourResult {
+    font-weight: bold;
+    position: absolute;
+    top: 7%;
+    left: 34%;
+    color: lightgray;
+}
+
+@media screen and (max-width: 375px) {
+    .btn {
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        width: 80%;
+        height: 6.5%;
+        border-radius: 30px;
+    }
+
+    .circlePos {
+        position: absolute;
+        top: 40%;
+        left: 51%;
+        transform: translate(-49%, -50%);
+    }
+    
+    .justify-content-center {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    ul.nav {
+        position: absolute;
+        top: 40%;
+        left: 51%;
+        transform: translate(-49%, -50%);
+    }
+
+    .rectangle {
+        width: 100%;
+        height: 320px;
+        border-radius: 0 0 22px 22px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+    
+    .recW {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .result {
+        position: relative;
+        top: 55%;
+        left: 10%;
+        margin-bottom: 4%;
+        width: 80%;
+        height: 6.5%;
+    }
+    
+    #belowGreat {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+    #great {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #summary {
+        position: absolute;
+        top: 52%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #yourResult {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-41%, -50%);
+    }
+    #circle {
+        background-image: linear-gradient(hsl(251, 75%, 42%), hsl(244, 90%, 61%));
+    }
+}
